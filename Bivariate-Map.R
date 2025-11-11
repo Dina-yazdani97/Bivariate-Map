@@ -271,7 +271,7 @@ map_with_legend <- ggplot(breaks) +
 
 # Save this version as well
 ggsave(
-  filename = "Iran_Temperature_Precipitation_Bivariate_v4.png",
+  filename = "Iran_Temperature_Precipitation_Bivariate.png",
   plot = map_with_legend,
   width = 12, height = 10, dpi = 300,
   device = "png", bg = "white"
